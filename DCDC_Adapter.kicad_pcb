@@ -45,7 +45,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Green")
+				(color "Black")
 				(thickness 0.01)
 				(material "Dry Film")
 				(epsilon_r 3.3)
@@ -69,7 +69,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Green")
+				(color "Black")
 				(thickness 0.01)
 				(material "Dry Film")
 				(epsilon_r 3.3)
@@ -80,7 +80,7 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
-				(color "Green")
+				(color "White")
 				(material "Direct Printing")
 			)
 			(copper_finish "None")

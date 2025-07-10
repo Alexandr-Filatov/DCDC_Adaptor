@@ -3,7 +3,16 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "384278b6-94fe-435c-9a9a-e34609beba6b")
-	(paper "A4")
+	(paper "A3")
+	(title_block
+		(title "Плата источника питания")
+		(company "ООО \"Электротранспортные технологии\"")
+		(comment 1 "НВЦТ.EVP150-2-1.2000.150 Э3")
+		(comment 2 "Филатов А.С.")
+		(comment 3 "Сизякин А.В,")
+		(comment 4 "Коваленко В.А.")
+		(comment 6 "Зубков Д.Н.")
+	)
 	(lib_symbols
 		(symbol "DCDC_My:QA"
 			(exclude_from_sim no)
@@ -510,17 +519,37 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "НВЦТ.EVP150-2-1.2000.150"
+		(exclude_from_sim no)
+		(at 16.51 34.544 90)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "8a960f02-b885-4672-8eee-729ef7b1ff0e")
+	)
+	(text "Схема электрическая принципиальная"
+		(exclude_from_sim no)
+		(at 329.438 271.526 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "a6952f9a-69b8-4ad5-9541-9f612a8c9764")
+	)
 	(no_connect
-		(at 100.33 118.11)
+		(at 204.47 152.4)
 		(uuid "3870ba9f-ac5f-47c2-b1db-1d8e96e3a32b")
 	)
 	(no_connect
-		(at 128.27 119.38)
+		(at 232.41 153.67)
 		(uuid "eff77b1b-0798-4c8c-941f-741d61c17eea")
 	)
 	(wire
 		(pts
-			(xy 124.46 93.98) (xy 132.08 93.98)
+			(xy 228.6 128.27) (xy 236.22 128.27)
 		)
 		(stroke
 			(width 0)
@@ -530,7 +559,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 96.52) (xy 99.06 113.03)
+			(xy 203.2 130.81) (xy 203.2 147.32)
 		)
 		(stroke
 			(width 0)
@@ -540,7 +569,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 96.52) (xy 99.06 96.52)
+			(xy 208.28 130.81) (xy 203.2 130.81)
 		)
 		(stroke
 			(width 0)
@@ -550,7 +579,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 96.52) (xy 129.54 96.52)
+			(xy 228.6 130.81) (xy 233.68 130.81)
 		)
 		(stroke
 			(width 0)
@@ -560,7 +589,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 91.44) (xy 96.52 100.33)
+			(xy 200.66 125.73) (xy 200.66 134.62)
 		)
 		(stroke
 			(width 0)
@@ -570,7 +599,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 91.44) (xy 134.62 91.44)
+			(xy 228.6 125.73) (xy 238.76 125.73)
 		)
 		(stroke
 			(width 0)
@@ -580,7 +609,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 93.98) (xy 132.08 114.3)
+			(xy 236.22 128.27) (xy 236.22 148.59)
 		)
 		(stroke
 			(width 0)
@@ -590,7 +619,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 91.44) (xy 134.62 116.84)
+			(xy 238.76 125.73) (xy 238.76 151.13)
 		)
 		(stroke
 			(width 0)
@@ -600,7 +629,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 111.76) (xy 129.54 111.76)
+			(xy 232.41 146.05) (xy 233.68 146.05)
 		)
 		(stroke
 			(width 0)
@@ -610,7 +639,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 114.3) (xy 128.27 114.3)
+			(xy 236.22 148.59) (xy 232.41 148.59)
 		)
 		(stroke
 			(width 0)
@@ -620,7 +649,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 107.95) (xy 96.52 115.57)
+			(xy 200.66 142.24) (xy 200.66 149.86)
 		)
 		(stroke
 			(width 0)
@@ -630,7 +659,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 91.44) (xy 96.52 91.44)
+			(xy 208.28 125.73) (xy 200.66 125.73)
 		)
 		(stroke
 			(width 0)
@@ -640,7 +669,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 116.84) (xy 128.27 116.84)
+			(xy 238.76 151.13) (xy 232.41 151.13)
 		)
 		(stroke
 			(width 0)
@@ -650,7 +679,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 115.57) (xy 100.33 115.57)
+			(xy 200.66 149.86) (xy 204.47 149.86)
 		)
 		(stroke
 			(width 0)
@@ -660,7 +689,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 111.76) (xy 129.54 96.52)
+			(xy 233.68 146.05) (xy 233.68 130.81)
 		)
 		(stroke
 			(width 0)
@@ -670,7 +699,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 113.03) (xy 100.33 113.03)
+			(xy 203.2 147.32) (xy 204.47 147.32)
 		)
 		(stroke
 			(width 0)
@@ -680,7 +709,7 @@
 	)
 	(symbol
 		(lib_id "DCDC_My:QA")
-		(at 114.3 93.98 0)
+		(at 218.44 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -689,7 +718,7 @@
 		(fields_autoplaced yes)
 		(uuid "08b4be98-c974-4f21-bca2-8318c84c2e13")
 		(property "Reference" "D1"
-			(at 114.3 83.82 0)
+			(at 218.44 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -697,7 +726,7 @@
 			)
 		)
 		(property "Value" "QA1"
-			(at 114.3 86.36 0)
+			(at 218.44 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,7 +734,7 @@
 			)
 		)
 		(property "Footprint" "DCDC_My:QA"
-			(at 114.3 93.98 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 93.98 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +752,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 93.98 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,7 +786,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 96.52 104.14 0)
+		(at 200.66 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -765,7 +794,7 @@
 		(dnp no)
 		(uuid "80ed179b-b5c5-43af-a6ed-8f22d6c235b4")
 		(property "Reference" "L1"
-			(at 94.234 102.616 0)
+			(at 198.374 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +803,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 92.964 105.41 0)
+			(at 197.104 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,7 +812,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
-			(at 96.52 104.14 0)
+			(at 200.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,7 +821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 104.14 0)
+			(at 200.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -801,7 +830,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 96.52 104.14 0)
+			(at 200.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,7 +855,7 @@
 	)
 	(symbol
 		(lib_id "DCDC_My:WRA_S-1WR2")
-		(at 114.3 115.57 0)
+		(at 218.44 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -835,7 +864,7 @@
 		(fields_autoplaced yes)
 		(uuid "83155a6c-e021-4074-a681-b3ce4049d209")
 		(property "Reference" "D2"
-			(at 114.3 104.14 0)
+			(at 218.44 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,7 +872,7 @@
 			)
 		)
 		(property "Value" "WRA1215S"
-			(at 114.3 106.68 0)
+			(at 218.44 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +880,7 @@
 			)
 		)
 		(property "Footprint" "DCDC_My:WRA_S-1WR2"
-			(at 114.3 115.57 0)
+			(at 218.44 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 115.57 0)
+			(at 218.44 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,7 +898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 115.57 0)
+			(at 218.44 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,4 +942,35 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "gost_landscape.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WC6IO0nAEYqgjFAc9pUwaAq7rGQvf7J+ej28lrFVi+Ra0Qr0XvBpp0PVIKJocju3inLuMxu
+				WJMBZ+8LfABnAHoALNo2GUZx9Wyv+vGO7GqGEQi0h1NBVbQbu4asUlxtNdu0DUOHHXuz3S4LorjC
+				2E01EGgMV8+VUWw3dfNo1moMH81SFXzgYBtVTc4wznZ5FqxD7VTQq7ccP9gGTKJmWIeqoOVcJzCQ
+				DVVL8SfCVhDFDBBgIzTR1VmonOtDBRi2oWoZrJTd7jX9n7Khe3Oye/9Ms1rmYPfHZufeRc3LSf+n
+				jA0dvmaRc3bwZWv+XePfzun8KCGM/7Cfewzne/kzOnz97xpCdtQnfM1OdoRSwyL6ns9/yCEXdTKt
+				OdMw+9FeW47UoQcp1/Kgs+ReeFeQbod89jhy6K+b4b9sl8309ehUweEadu1UTChOpuuy4U1LLpJO
+				lVtSuhJakbPaCV0eintGDej97uhEuhmOcrWX1TbJb5lclmu6pItyMa5v1WZ1wyIHzIIiICx/hlaE
+				zSDtgyDQGGvlWpxSbsstXdJLQQAB1cP21+/uObTaZWza0c22HZYs36ROMpS0m+FjF6MbeD2fZOgw
+				wZ3rg/x/m2kOFM+HkHnw/SDTPLsg89wrZHil5ZLQ0Wmkp4vQlk4KkREFxB1+PPn90ttfe+myyeUD
+				umO5J3flmlwuU5xO7sejFKfRiSWBbahBUahmpCAFSSHDGnGRwBiC1Z0dskgQgjAUw4AcCGIcAhlC
+				HCFEQAwhhBhjREauHS1W9GqoT2ej9oib6AkUZ1xytemsseM0xpmg8F4VpZ0BeQEinRqXR/LHvcXM
+				zxBtuIUaw8HcSNawPE002iKV23H6UV273ntSIAlTA5N1ZdrndCiVe6uBaRiHYYiKq9GgNrTeNTRf
+				NfUJ/32bWh9/57DHw7uQxz4ULHfFeApmWDLvyo3GHRcRbczSKYx08fXGVh6xzSXRvDpB6BApYY8y
+				6sEbrKBGeegRkrjMrCrrLxeLYxp0HswTCskvDBMXTHE/T+ByeqaPP3qdKzND8/1VD3bUDeJn0Y9z
+				gDZPfEvFjAaAJZpbLUtz3kaxhDe3Snk/4OyFwqFNmJyv7iYuCzQrtB3ykyQKiwBJcw2JxNU32g3/
+				kVAxeFgRdQg12uIi1pyRGPpIH4Xa+rlwJouAD+8zrEHs/Mj95yRfSbzxr/d0A4lRg1eZtAqJQBlT
+				3zHGdrqzkPo5zEAHci6R5WaJ7M8aOMeYTH8ylU/JOjqDbeYB3A/SED8iC0uFsZZlGFxjlGVAmFBW
+				Sg295mriH68MGT6sxAPRzPNjscyiXi6CHelA4On6CGhR0TBQg6X1agUnjA2o+EQ8+EMjOt0EE3O1
+				KZXjk96NgCgPyIEYPya3WbCT53yDvYomiSBeq3cTdXyh8ErjMLtLd9lDpdvsZ53W2mh1ArZ1o9W/
+				pn4MvGAJn4RflojuA5iT3WAhYm7x+ywpKbA6SP8AsvhaPKoyXAVabGD5KqtYRIZHh+1qjSosK7Zk
+				WnUXr26KKLGZ9FmofbXdLWEkLIYWnz6CoHAJ1aETYyMLDNADH7/BUkuXmDcZVyKv/jweRknOlknx
+				InFQ+uGQOpYGNF5vgyfg9IZKup03LTR7DEu7ADGKQmGCR30jTPWNMAURYVmFlx3OQiIuT/p0NIV4
+				k5jbGQYYpblIqpu8oZ6A0nlGAufJ/aGmRk8NeaaILFcB|
+			)
+			(checksum "9180C2D8C133E7F089AA5E43F4962E04")
+		)
+	)
 )
