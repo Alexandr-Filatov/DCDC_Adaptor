@@ -3,10 +3,9 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "384278b6-94fe-435c-9a9a-e34609beba6b")
-	(paper "A3")
+	(paper "A4" portrait)
 	(title_block
 		(title "Плата источника питания")
-		(company "ООО \"Электротранспортные технологии\"")
 		(comment 1 "НВЦТ.EVP150-2-1.2000.150 Э3")
 		(comment 2 "Филатов А.С.")
 		(comment 3 "Сизякин А.В,")
@@ -519,6 +518,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "1. Перечень элементов см. НВЦТ.EVP150-2-1.2000.150 ПЭ3."
+		(exclude_from_sim no)
+		(at 84.328 214.122 0)
+		(effects
+			(font
+				(size 3.5 3.5)
+			)
+		)
+		(uuid "6b01f3d0-9164-4cea-9062-418f55fbce7e")
+	)
+	(text "ООО \"Электротранспортные"
+		(exclude_from_sim no)
+		(at 180.34 282.702 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "7ae38827-992a-4a15-af44-9f810c771619")
+	)
+	(text "технологи\""
+		(exclude_from_sim no)
+		(at 180.34 287.02 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "7b5d4baf-abb2-4571-b385-ac9ff0fe538c")
+	)
 	(text "НВЦТ.EVP150-2-1.2000.150"
 		(exclude_from_sim no)
 		(at 16.51 34.544 90)
@@ -531,7 +560,7 @@
 	)
 	(text "Схема электрическая принципиальная"
 		(exclude_from_sim no)
-		(at 329.438 271.526 0)
+		(at 119.888 271.78 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -540,16 +569,16 @@
 		(uuid "a6952f9a-69b8-4ad5-9541-9f612a8c9764")
 	)
 	(no_connect
-		(at 204.47 152.4)
+		(at 96.52 142.24)
 		(uuid "3870ba9f-ac5f-47c2-b1db-1d8e96e3a32b")
 	)
 	(no_connect
-		(at 232.41 153.67)
+		(at 124.46 143.51)
 		(uuid "eff77b1b-0798-4c8c-941f-741d61c17eea")
 	)
 	(wire
 		(pts
-			(xy 228.6 128.27) (xy 236.22 128.27)
+			(xy 120.65 118.11) (xy 128.27 118.11)
 		)
 		(stroke
 			(width 0)
@@ -559,7 +588,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 130.81) (xy 203.2 147.32)
+			(xy 95.25 120.65) (xy 95.25 137.16)
 		)
 		(stroke
 			(width 0)
@@ -569,7 +598,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 130.81) (xy 203.2 130.81)
+			(xy 100.33 120.65) (xy 95.25 120.65)
 		)
 		(stroke
 			(width 0)
@@ -579,7 +608,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 130.81) (xy 233.68 130.81)
+			(xy 120.65 120.65) (xy 125.73 120.65)
 		)
 		(stroke
 			(width 0)
@@ -589,7 +618,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 125.73) (xy 200.66 134.62)
+			(xy 92.71 115.57) (xy 92.71 124.46)
 		)
 		(stroke
 			(width 0)
@@ -599,7 +628,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 125.73) (xy 238.76 125.73)
+			(xy 120.65 115.57) (xy 130.81 115.57)
 		)
 		(stroke
 			(width 0)
@@ -609,7 +638,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 128.27) (xy 236.22 148.59)
+			(xy 128.27 118.11) (xy 128.27 138.43)
 		)
 		(stroke
 			(width 0)
@@ -619,7 +648,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 125.73) (xy 238.76 151.13)
+			(xy 130.81 115.57) (xy 130.81 140.97)
 		)
 		(stroke
 			(width 0)
@@ -629,7 +658,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 146.05) (xy 233.68 146.05)
+			(xy 124.46 135.89) (xy 125.73 135.89)
 		)
 		(stroke
 			(width 0)
@@ -639,7 +668,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 148.59) (xy 232.41 148.59)
+			(xy 128.27 138.43) (xy 124.46 138.43)
 		)
 		(stroke
 			(width 0)
@@ -649,7 +678,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 142.24) (xy 200.66 149.86)
+			(xy 92.71 132.08) (xy 92.71 139.7)
 		)
 		(stroke
 			(width 0)
@@ -659,7 +688,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 125.73) (xy 200.66 125.73)
+			(xy 100.33 115.57) (xy 92.71 115.57)
 		)
 		(stroke
 			(width 0)
@@ -669,7 +698,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 151.13) (xy 232.41 151.13)
+			(xy 130.81 140.97) (xy 124.46 140.97)
 		)
 		(stroke
 			(width 0)
@@ -679,7 +708,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 149.86) (xy 204.47 149.86)
+			(xy 92.71 139.7) (xy 96.52 139.7)
 		)
 		(stroke
 			(width 0)
@@ -689,7 +718,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 146.05) (xy 233.68 130.81)
+			(xy 125.73 135.89) (xy 125.73 120.65)
 		)
 		(stroke
 			(width 0)
@@ -699,7 +728,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 147.32) (xy 204.47 147.32)
+			(xy 95.25 137.16) (xy 96.52 137.16)
 		)
 		(stroke
 			(width 0)
@@ -709,7 +738,7 @@
 	)
 	(symbol
 		(lib_id "DCDC_My:QA")
-		(at 218.44 128.27 0)
+		(at 110.49 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -718,7 +747,7 @@
 		(fields_autoplaced yes)
 		(uuid "08b4be98-c974-4f21-bca2-8318c84c2e13")
 		(property "Reference" "D1"
-			(at 218.44 118.11 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +755,7 @@
 			)
 		)
 		(property "Value" "QA1"
-			(at 218.44 120.65 0)
+			(at 110.49 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,7 +763,7 @@
 			)
 		)
 		(property "Footprint" "DCDC_My:QA"
-			(at 218.44 128.27 0)
+			(at 110.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,7 +772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 128.27 0)
+			(at 110.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -752,7 +781,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 128.27 0)
+			(at 110.49 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,7 +815,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 200.66 138.43 0)
+		(at 92.71 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -794,7 +823,7 @@
 		(dnp no)
 		(uuid "80ed179b-b5c5-43af-a6ed-8f22d6c235b4")
 		(property "Reference" "L1"
-			(at 198.374 136.906 0)
+			(at 90.424 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,7 +832,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 197.104 139.7 0)
+			(at 89.154 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,7 +841,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
-			(at 200.66 138.43 0)
+			(at 92.71 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,7 +850,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 138.43 0)
+			(at 92.71 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,7 +859,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 200.66 138.43 0)
+			(at 92.71 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +884,7 @@
 	)
 	(symbol
 		(lib_id "DCDC_My:WRA_S-1WR2")
-		(at 218.44 149.86 0)
+		(at 110.49 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -864,7 +893,7 @@
 		(fields_autoplaced yes)
 		(uuid "83155a6c-e021-4074-a681-b3ce4049d209")
 		(property "Reference" "D2"
-			(at 218.44 138.43 0)
+			(at 110.49 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +901,7 @@
 			)
 		)
 		(property "Value" "WRA1215S"
-			(at 218.44 140.97 0)
+			(at 110.49 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,7 +909,7 @@
 			)
 		)
 		(property "Footprint" "DCDC_My:WRA_S-1WR2"
-			(at 218.44 149.86 0)
+			(at 110.49 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,7 +918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 149.86 0)
+			(at 110.49 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,7 +927,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 149.86 0)
+			(at 110.49 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,6 +1000,35 @@
 				k5jbGQYYpblIqpu8oZ6A0nlGAufJ/aGmRk8NeaaILFcB|
 			)
 			(checksum "9180C2D8C133E7F089AA5E43F4962E04")
+		)
+		(file
+			(name "gost_portrait.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WC4IM0nAHbqgjFQdTow6/sNILIV1TIw5zlbg/WJMHlF251w3xY6sje8JsLAtpQyyZRKCsq/
+				EmGGgl4DfQBlAHsAvaONk2HUVr50M0HNcN3MsIIB/nRmqIJ0W+eQTWqrbWabxmnwrNvmpduGhqit
+				MpQzDwY4s/OzyailnLl9NEq1BpBGqeohOthGVXIzrLNtPgz0YXqq78ottxDUAZuYGeahqrd6JwUW
+				oqJJqQVJ0BmidgECqIQ22ngYZmcDogKPL3cZ+d2Tcp23ZxrVMvfMDnmdcwcFPMped7nL6B7k73+8
+				I9fr3iO7t2vff9wi5/qSDuM/dH9+7u3L59El7H/s7tit+1/XV8t/vC7CjwIris4vuuj+PfJkGm+m
+				YRSk0W2f3Mf9AWxRqh7RtyGpvx/zvnuMvNdj0smiowXWsWM5qTipVBiO5ssEEy/JUk1MNb4FN5se
+				0eZDLUu48c2vkk6lquGunXRDtS2uWyfVparUUk2pGbW3SbPJ2dEDRkMSEVb7vgWfN6SBEgY4Y7XU
+				i9NKfammWooxyCwVTdpAY2R2AQABlX/kfuztXr/FHSFfTLcoL37r4uV4H0JH8Fi+uN+v0L0TIro7
+				zbQHauVL0Lz3RtDwSjbQPOcLmm15qSUX6UQie+Ti2CWRCFNCuh/kRWeP/bhNdVVgQL6dS0WpLVUF
+				pm7FCaWCvKviRDq5rFTr45ImFeMtGAOBZqgxTalmRJKCpJBhDVGVwBiCmTs7kkAQgjAYQkEcCWIU
+				RFKEKGIIIYQICFHIiJRYO61rAUQ7x+JKGr+IwUgx597QihTG9sWKdeD8KXK0c8VAoma9oCjCMpNB
+				3WiwzwzRt9Bj0pJNf+U2rIYVvomGJkTROrgfqiu5I9YFMgC0gLGuYKO9DqX2aNWWAgZ+GIbl6p2t
+				TQ3qmpxXzXaNf8mD1sEbs+PjnV7IAx+3nLsDFdE7FWcOkVO93DkiijLLTRgdFt1WXBnEDCgpIOow
+				TkehtGrKUgtvcG/QMRQcARw2EVRecM2fx79PY1AHVkzh8wUCcUGI+3mVL6fU9HFHr5NvmGIeJ+ut
+				Q+ZGimF5xjkDNkNeTulEczyWf38ZauM/mTe3ZXjh4GyPcKrBTEVfrRP3AKbd8L2F4YIIAAGMspx2
+				6OxW/zCr9nSI/u5hWdQb1NjExbKDJWWtIQMU11bD3YIRBFxj32kNfuV/HhInKVZ746/3avhEHhiu
+				EturMBRkAsFjLM671UIqKTEf7QfQjYG8dpJtwhUn+qou1NPzKVlhZ+YcpAIkr3TuXG4nOyAcluUv
+				25ZSlkRfwywSaigsWhPn8aJ6ePLSH4kdPH9D/Sz2cEETLR3OvO77gAj4FHZAXlYPWBpgvNpikOLB
+				VAIChSE9wV/3VI6T3ugI+HkgRgnk1ah0Uq7H78lrsrjN7+1j+NjTlP5kFoHueseWhlzPw1uHzhwF
+				sE8Ub87r/mOKKkrVfz55SX9um0mitoeFCgkRV+fPP/NsBIoHHkMLj1YnLLXzkT5nyEpBXE2tCmPZ
+				joyrEqTNYmrhF5bkN7m0miNeQmgetIsG13HsZQjo5eqy4TODonxAp6cWHTBgMuJ1VStPFRnRMJG6
+				2k3V7/45DO9j6WL+KgYD4wM9zutfNtn7hHyN1E8BN0KF64tcysA8pCzjFZz7bVzPtm6AdnnOwUE6
+				GARzhJZzdcgbwiqQD3wkzZ/2DwJqHrgiNBRF5Co=|
+			)
+			(checksum "12F393F2C62B1E595502842B90E2D6BB")
 		)
 	)
 )
