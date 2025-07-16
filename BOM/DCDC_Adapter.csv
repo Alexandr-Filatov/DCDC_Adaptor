@@ -1,0 +1,4 @@
+"Reference","Value","Product Name","Replacement","Description P/N","Footprint","Qty","DNP"
+"D1","~","QA1","","DCDC","DCDC_My:QA","1",""
+"D2","~","DS1021-1x10","","Connector","DCDC_My:WRA_S-1WR2","1",""
+"L1","47u","NLC453232T-470K-PF","","Inductor","Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder","1",""

@@ -754,12 +754,13 @@
 				)
 			)
 		)
-		(property "Value" "QA1"
+		(property "Value" "~"
 			(at 110.49 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DCDC_My:QA"
@@ -781,6 +782,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "DCDC"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "QA1"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Replacement" ""
 			(at 110.49 118.11 0)
 			(effects
 				(font
@@ -867,6 +895,33 @@
 				(hide yes)
 			)
 		)
+		(property "Description P/N" "Inductor"
+			(at 92.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "NLC453232T-470K-PF"
+			(at 92.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Replacement" ""
+			(at 92.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3db937a2-f00f-4c8a-bf96-0cab2d3b67b4")
 		)
@@ -900,12 +955,13 @@
 				)
 			)
 		)
-		(property "Value" "WRA1215S"
+		(property "Value" "~"
 			(at 110.49 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DCDC_My:WRA_S-1WR2"
@@ -927,6 +983,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 110.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description P/N" "Connector"
+			(at 110.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product Name" "DS1021-1x10"
+			(at 110.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Replacement" ""
 			(at 110.49 139.7 0)
 			(effects
 				(font

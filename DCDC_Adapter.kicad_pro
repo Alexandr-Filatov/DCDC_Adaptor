@@ -522,7 +522,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "BOM\\DCDC_Adapter.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -544,15 +544,39 @@
           "show": true
         },
         {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "label": "Product Name",
+          "name": "Product Name",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Replacement",
+          "name": "Replacement",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description P/N",
+          "name": "Description P/N",
           "show": true
         },
         {
           "group_by": true,
-          "label": "Value",
-          "name": "Value",
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
@@ -565,33 +589,39 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Описание",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Обозначение"
+      "sort_field": "Description"
     },
     "connection_grid_size": 50.0,
     "drawing": {
